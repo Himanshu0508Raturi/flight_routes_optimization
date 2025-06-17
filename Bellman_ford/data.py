@@ -1,4 +1,6 @@
 # data.py
+import streamlit as st
+
 from pymongo import MongoClient
 import os
 from dotenv import load_dotenv
