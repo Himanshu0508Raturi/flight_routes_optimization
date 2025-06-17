@@ -7,7 +7,7 @@ import networkx as nx
 from .data import airports, edges, load_graph
 from .floyd_warshell import floyd_warshell, get_intermediate_path
 from .graph_logic import build_graph, get_edge_labels
-from .layout_util import get_custom_layout
+from ..layout_util import get_custom_layout
 
 st.set_page_config(
     page_title="Flight Route Optimizer",
