@@ -4,7 +4,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import networkx as nx
 
-from floyd_warshell/data.py import airports, edges, load_graph
+from floyd_warshell.data import airports, edges, load_graph
 from floyd_warshell import floyd_warshell, get_intermediate_path
 from graph_logic import build_graph, get_edge_labels
 from layout_util import get_custom_layout
