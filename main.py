@@ -16,8 +16,8 @@ st.subheader("An Graph-Based Travel Planner")
 st.markdown("""
 Welcome to the **Flight Route Optimization System** – a graph-theory-powered platform that simulates real-world flight networks using the most efficient algorithms:
 
-- 🔄 **Bellman-Ford Algorithm** for flight cost optimization in presence of negative weights.
-- 🔁 **Floyd-Warshall Algorithm** for finding all-pair shortest paths and alternative routes.
+- 🔄 **Bellman-Ford Algorithm** for finding shortest route between source to destination in terms of cost , distance and time.
+- 🔁 **Floyd-Warshall Algorithm** for finding all-pair shortest paths.
 - 🌐 **Kruskal’s Algorithm** for building the most cost-effective airline network (Minimum Spanning Tree).
 
 You can:
